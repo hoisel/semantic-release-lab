@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/hoisel/semantic-release-lab/compare/v1.0.1...v1.1.0) (2024-10-17)
+
+
+### Features
+
+* **ci:** add concurrency support ([4049373](https://github.com/hoisel/semantic-release-lab/commit/404937398dccfcd3b2d3b0c28aa3028f3150ce61))
+* **README:** remove front matter ([380469f](https://github.com/hoisel/semantic-release-lab/commit/380469f383de598e8c8a67c0337dc66aecf3e9ea))
+
 ## [1.0.1](https://github.com/hoisel/semantic-release-lab/compare/v1.0.0...v1.0.1) (2024-10-17)
 
 
