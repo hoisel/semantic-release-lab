@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/hoisel/semantic-release-lab/compare/v1.0.0...v1.0.1) (2024-10-17)
+
+
+### Bug Fixes
+
+* **README:** wrong token instructions ([fd91145](https://github.com/hoisel/semantic-release-lab/commit/fd911458c709b320cdc5beb11deb42270f2aea59))
+
 # 1.0.0 (2024-10-17)
 
 
