@@ -177,7 +177,7 @@ jobs:
 
 ### 9.1  Generate GitHub Token
 
-Go to GitHub and create a personal access token with `repo` and `workflow` permissions.
+Go to GitHub Actions Settings and add write permission to to default GITHUB_TOKEN.
 
 ### 9.2 Generate npm Token (only if you want ot deploy to npm)
 
