@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/hoisel/semantic-release-lab/compare/v1.1.0...v1.2.0) (2024-10-17)
+
+
+### Features
+
+* **README:** improve text ([825860a](https://github.com/hoisel/semantic-release-lab/commit/825860a178c067d85be6a9a580e9e4e6df333c5e))
+
 # [1.1.0](https://github.com/hoisel/semantic-release-lab/compare/v1.0.1...v1.1.0) (2024-10-17)
 
 
