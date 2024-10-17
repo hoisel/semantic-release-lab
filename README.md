@@ -154,7 +154,7 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
-  
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -206,10 +206,12 @@ git push origin main
 ```
 
 ------------------------------------------------------------------------
+After pushing, the GitHub action should trigger. If it runs successfully, you should see a new release on your GitHub repo and a new version on npm (if npm publish is set).
+
 
 ## Addressing Potential Issues
 
-After pushing, the GitHub action should trigger. However, you might encounter permission issues. If this happens, go to your GitHub repo settings and ensure that under `Actions` \> `General`, the `Workflow permissions` is set to `Read and write`.
+However, you might encounter permission issues. If this happens, go to your GitHub repo settings and ensure that under `Actions` \> `General`, the `Workflow permissions` is set to `Read and write`.
 
 ------------------------------------------------------------------------
 
