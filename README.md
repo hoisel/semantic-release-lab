@@ -150,6 +150,11 @@ on:
   push:
     branches:
       - main
+      
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
 jobs:
   release:
     runs-on: ubuntu-latest
